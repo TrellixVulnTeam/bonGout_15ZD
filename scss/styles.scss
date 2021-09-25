@@ -287,9 +287,7 @@ kbd,
 samp {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
-  direction: ltr
-    /* rtl:ignore */
-  ;
+  direction: ltr;
   unicode-bidi: bidi-override;
 }
 
@@ -3110,7 +3108,7 @@ textarea.form-control.is-valid {
   width: 100%;
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #dc3545;
+  color: white;
 }
 
 .invalid-tooltip {
@@ -5471,9 +5469,7 @@ fieldset:disabled .btn {
   float: left;
   padding-right: 0.5rem;
   color: #6c757d;
-  content: var(--bs-breadcrumb-divider, "/")
-    /* rtl: var(--bs-breadcrumb-divider, "/") */
-  ;
+  content: var(--bs-breadcrumb-divider, "/");
 }
 
 .breadcrumb-item.active {
@@ -6714,9 +6710,7 @@ fieldset:disabled .btn {
 .popover {
   position: absolute;
   top: 0;
-  left: 0
-    /* rtl:ignore */
-  ;
+  left: 0;
   z-index: 1070;
   display: block;
   max-width: 276px;
@@ -7093,17 +7087,13 @@ fieldset:disabled .btn {
 
 @-webkit-keyframes spinner-border {
   to {
-    transform: rotate(360deg)
-      /* rtl:ignore */
-    ;
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spinner-border {
   to {
-    transform: rotate(360deg)
-      /* rtl:ignore */
-    ;
+    transform: rotate(360deg);
   }
 }
 
@@ -12456,57 +12446,13 @@ p {
   margin-bottom: 1rem;
 }
 
-
 section#contact .section-heading {
-  color: rgba(255, 255, 255, 0.7);
+  color: #f6e1c5;
   display: block;
   font-size: 3rem;
   font-weight: 800;
 }
 
-section#contact form#contactForm .form-group {
-  margin-bottom: 1.5rem;
+.section-subheading {
+  color: #f6e1c5;
 }
-
-section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
-}
-
-section#contact form#contactForm .form-group input.form-control {
-  height: auto;
-}
-
-section#contact form#contactForm .form-group-textarea {
-  height: 100%;
-}
-
-section#contact form#contactForm .form-group-textarea textarea {
-  height: 100%;
-  min-height: 10rem;
-}
-
-section#contact form#contactForm p.help-block {
-  margin: 0;
-}
-
-section#contact form#contactForm .form-control:focus {
-  border-color: #ffc800;
-  box-shadow: none;
-}
-
-section#contact .section-heading {
-  color: #e6a756;
-}
-
-.page-section h3.section-subheading,
-.page-section .section-subheading.h3 {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
-  padding-bottom: 0.25rem;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  display: block;
-  font-size: 2rem;
-  font-weight: 400;
-} 
-
